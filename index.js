@@ -5,6 +5,8 @@ let password1 = document.getElementById("password1")
 let password2 = document.getElementById("password2")
 
 function generatePasswords() {
+    password1.textContent = ""
+    password2.textContent = ""
     for(let i = 0; i < 15; i += 1) {
         password1.textContent += characters[Math.floor(Math.random() * characters.length)]
         password2.textContent += characters[Math.floor(Math.random() * characters.length)]
