@@ -52,3 +52,8 @@ p {
     width: 40px;
     height: 30px;
 }
+
+hr {
+    width: 90%;
+    color:#2F3E53;
+}
