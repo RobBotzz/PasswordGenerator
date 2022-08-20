@@ -7,8 +7,8 @@ let password2 = document.getElementById("password2")
 let plengthEl = document.getElementById("plength")
 
 function generatePasswords() {
-    let plength = getInt(plengthEl.textContent)
-
+    //let plength = getInt(plengthEl.textContent)
+    
 
     password1.textContent = ""
     password2.textContent = ""
@@ -16,7 +16,8 @@ function generatePasswords() {
       //  password1.textContent += characters[Math.floor(Math.random() * characters.length)]
         //password2.textContent += characters[Math.floor(Math.random() * characters.length)]
     //}
-    password1.textContent = plength;
+    password1.textContent = plengthEl.textContent;
+
 }
 
 function getInt(s) {
