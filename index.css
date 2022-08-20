@@ -1,3 +1,37 @@
 body {
     margin: 0;
+    background-color: #1F2937;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#greenText {
+    color: #4ADF86;
+}
+
+p {
+    color: gray;
+}
+
+#generateButton {
+    background-color: #4ADF86; 
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.passwordButton {
+    background-color: #273549;
+    color: #4ADF86;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
 }
