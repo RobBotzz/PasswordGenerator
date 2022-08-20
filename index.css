@@ -25,7 +25,7 @@ p {
     padding: 10px;
     border: none;
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .passwordButton {
@@ -33,12 +33,13 @@ p {
     color: #55F991;
     border-radius: 5px;
     padding: 5px 15px 5px 15px;
-    margin-right: 10px;
+    margin-right: 20px;
     border: none;
+    min-width: 60px;
 }
 
 .container {
     display: flex;
     justify-content: left;
-    min-width: 60px;
+    
 }
