@@ -4,6 +4,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let password1 = document.getElementById("password1")
 let password2 = document.getElementById("password2")
 
+let plength = document.getElementById("plength")
+plength.textContent = "TEST"
+
 function generatePasswords() {
     password1.textContent = ""
     password2.textContent = ""
