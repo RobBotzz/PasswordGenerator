@@ -49,11 +49,6 @@ p {
     
 }
 
-#plength {
-    width: 40px;
-    height: 30px;
-}
-
 hr {
     width: 98%;
     color:#2F3E53;
@@ -63,4 +58,14 @@ hr {
 label {
     color: #D5D4D8;
     margin-right: 10px;
+}
+
+.lengthButton {
+    background-color: #273549;
+    color: #55F991;
+    height: 30px;
+    border: none;
+    margin-right: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
 }

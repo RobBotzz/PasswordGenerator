@@ -3,27 +3,31 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let password1 = document.getElementById("password1")
 let password2 = document.getElementById("password2")
-
-let plengthEl = document.getElementById("plength")
+let plength = 15
 
 function generatePasswords() {
-    //let plength = getInt(plengthEl.textContent)
-    
-
     password1.textContent = ""
     password2.textContent = ""
-    //for(let i = 0; i < plength; i += 1) {
-      //  password1.textContent += characters[Math.floor(Math.random() * characters.length)]
-        //password2.textContent += characters[Math.floor(Math.random() * characters.length)]
-    //}
-    password1.textContent = plengthEl.textContent;
-
+    for(let i = 0; i < plength; i += 1) {
+        password1.textContent += characters[Math.floor(Math.random() * characters.length)]
+        password2.textContent += characters[Math.floor(Math.random() * characters.length)]
+    }
 }
 
-function getInt(s) {
-    const parsed = parseInt(s, "10")
-    if(isNaN(parsed)) return 0
-    return parsed
+function set5() {
+    plength = 5
+}
+
+function set10() {
+    plength = 10
+}
+
+function set15() {
+    plength = 15
+}
+
+function set20() {
+    plength = 20
 }
 
 
