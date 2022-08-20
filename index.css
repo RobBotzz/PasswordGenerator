@@ -29,6 +29,7 @@ p {
     border: none;
     color: white;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .passwordButton {
@@ -54,6 +55,12 @@ p {
 }
 
 hr {
-    width: 90%;
+    width: 98%;
     color:#2F3E53;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #D5D4D8;
+    margin-right: 10px;
 }
