@@ -5,7 +5,6 @@ let password1 = document.getElementById("password1")
 let password2 = document.getElementById("password2")
 
 let plengthEl = document.getElementById("plength")
-plength.textContent = "TEST"
 
 function generatePasswords() {
     //let plength = getInt(plengthEl.textContent)
