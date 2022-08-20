@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: #1F2937;
-    color: white;
 }
 
 h1 {
@@ -21,6 +20,8 @@ p {
     background-color: #4ADF86; 
     border-radius: 5px;
     padding: 5px;
+    border: none;
+    color: white;
 }
 
 .passwordButton {
@@ -29,6 +30,7 @@ p {
     border-radius: 5px;
     padding: 5px 15px 5px 15px;
     margin-right: 10px;
+    border: none;
 }
 
 .container {
