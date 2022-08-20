@@ -39,5 +39,6 @@ p {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    min-width: 60px;
 }
